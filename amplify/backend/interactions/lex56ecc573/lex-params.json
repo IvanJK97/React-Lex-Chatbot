@@ -1,0 +1,25 @@
+{
+    "resourceName": "lex56ecc573",
+    "botName": "DemoBot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Bethlehem",
+                    "type": "AMAZON.AT_CITY",
+                    "prompt": "What city?",
+                    "required": false,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "What is the weather today"
+            ],
+            "intentName": "Weather_today",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": "2",
+    "coppa": false
+}
